@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cVZBnEr" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cVZBnEr" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/textarea/textarea,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/popOver/popOver,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/bootstrap/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-row.cVZBnEr{padding: 0px 0px 0px 0px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onParamsReceive:modelParamsReceive" __cid="cVZBnEr" class="cVZBnEr"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p2aabed353cde47f691d2a4a2c2d75bde-iosstatusbar cVZBnEr" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cVZBnEr"> 
+    <div class="x-panel-top cVZBnEr" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cVZBnEr">
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cVZBnEr" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;发文接收单&quot;}" __cid="cVZBnEr"> 
+        <div class="x-titlebar-left cVZBnEr" xid="left1" __cid="cVZBnEr"/>  
+        <div class="x-titlebar-title cVZBnEr" xid="title1" __cid="cVZBnEr">发文接收单</div>  
+        <div class="x-titlebar-right  cVZBnEr" xid="right1" __cid="cVZBnEr">
+          <div class="empty cVZBnEr" __cid="cVZBnEr"/>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cVZBnEr" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;icon&quot;:&quot;icon-android-close&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cVZBnEr"> 
+            <i xid="i1" class="icon-android-close cVZBnEr" __cid="cVZBnEr"/>  
+            <span xid="span1" __cid="cVZBnEr" class="cVZBnEr"/>
+          </a>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-content cVZBnEr" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cVZBnEr">
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p7250b66a401d452583beffd07f907229-iosstatusbar cVZBnEr" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cVZBnEr"> 
+        <div class="x-panel-top cVZBnEr" xid="top2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cVZBnEr">
+          <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group x-card btn-group-justified cVZBnEr" xid="buttonGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cVZBnEr">
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cVZBnEr" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;发文详细&quot;,&quot;target&quot;:&quot;content3&quot;}" __cid="cVZBnEr"> 
+              <i xid="i2" __cid="cVZBnEr" class="cVZBnEr"/>  
+              <span xid="span2" __cid="cVZBnEr" class="cVZBnEr">发文详细</span>
+            </a>  
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cVZBnEr" xid="button3" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;处理记录&quot;,&quot;target&quot;:&quot;content4&quot;}" __cid="cVZBnEr"> 
+              <i xid="i3" __cid="cVZBnEr" class="cVZBnEr"/>  
+              <span xid="span3" __cid="cVZBnEr" class="cVZBnEr">处理记录</span>
+            </a>
+          </div>
+        </div>  
+        <div class="x-panel-content cVZBnEr" xid="content2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cVZBnEr">
+          <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cVZBnEr" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cVZBnEr"> 
+            <div class="x-contents-content active cVZBnEr" xid="content3" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cVZBnEr">
+              <div xid="div1" __cid="cVZBnEr" class="cVZBnEr">
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cVZBnEr" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVZBnEr"> 
+                  <div class="x-col cVZBnEr" xid="col1" __cid="cVZBnEr">
+                    <label xid="label2" __cid="cVZBnEr" class="cVZBnEr">处理状态:</label> 
+                  </div>  
+                  <div class="x-col cVZBnEr" xid="col2" __cid="cVZBnEr">
+                    <label xid="label4" __cid="cVZBnEr" class="cVZBnEr"/>
+                  </div>  
+                  <div class="x-col cVZBnEr" xid="col3" __cid="cVZBnEr">
+                    <label xid="label5" __cid="cVZBnEr" class="cVZBnEr">发文编号:</label>
+                  </div>  
+                  <div class="x-col cVZBnEr" xid="col4" __cid="cVZBnEr">
+                    <label xid="label6" __cid="cVZBnEr" class="cVZBnEr"/>
+                  </div>
+                </div>  
+                <div xid="div3" __cid="cVZBnEr" class="cVZBnEr">
+                  <label xid="label7" style="color:#FF8000;" __cid="cVZBnEr" class="cVZBnEr">基本信息:</label>  
+                  <div component="$model/UI2/system/components/justep/row/row" class="x-row cVZBnEr" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVZBnEr"> 
+                    <div class="x-col x-col-25 cVZBnEr" xid="col5" __cid="cVZBnEr">
+                      <label xid="label8" __cid="cVZBnEr" class="cVZBnEr">发文名称:</label>
+                    </div>  
+                    <div class="x-col cVZBnEr" xid="col6" __cid="cVZBnEr">
+                      <label xid="label9" __cid="cVZBnEr" class="cVZBnEr"/>
+                    </div> 
+                  </div>  
+                  <div component="$model/UI2/system/components/justep/row/row" class="x-row cVZBnEr" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVZBnEr"> 
+                    <div class="x-col cVZBnEr" xid="col8" __cid="cVZBnEr">
+                      <label xid="label10" __cid="cVZBnEr" class="cVZBnEr">发文序号:</label>
+                    </div>  
+                    <div class="x-col cVZBnEr" xid="col9" __cid="cVZBnEr">
+                      <label xid="label11" __cid="cVZBnEr" class="cVZBnEr"/>
+                    </div>  
+                    <div class="x-col cVZBnEr" xid="col10" __cid="cVZBnEr">
+                      <label xid="label12" __cid="cVZBnEr" class="cVZBnEr">发文方式:</label>
+                    </div>  
+                    <div class="x-col cVZBnEr" xid="col12" __cid="cVZBnEr">
+                      <label xid="label13" __cid="cVZBnEr" class="cVZBnEr"/>
+                    </div>
+                  </div>  
+                  <div component="$model/UI2/system/components/justep/row/row" class="x-row cVZBnEr" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVZBnEr"> 
+                    <div class="x-col cVZBnEr" xid="col13" __cid="cVZBnEr">
+                      <label xid="label14" __cid="cVZBnEr" class="cVZBnEr">发文类型:</label>
+                    </div>  
+                    <div class="x-col cVZBnEr" xid="col14" __cid="cVZBnEr">
+                      <label xid="label15" __cid="cVZBnEr" class="cVZBnEr"/>
+                    </div>  
+                    <div class="x-col cVZBnEr" xid="col15" __cid="cVZBnEr">
+                      <label xid="label16" __cid="cVZBnEr" class="cVZBnEr">发文部门:</label>
+                    </div>  
+                    <div class="x-col cVZBnEr" xid="col16" __cid="cVZBnEr">
+                      <label xid="label17" __cid="cVZBnEr" class="cVZBnEr"/>
+                    </div>
+                  </div>  
+                  <div component="$model/UI2/system/components/justep/row/row" class="x-row cVZBnEr" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVZBnEr"> 
+                    <div class="x-col x-col-25 cVZBnEr" xid="col17" __cid="cVZBnEr">
+                      <label xid="label18" __cid="cVZBnEr" class="cVZBnEr">主送单位:</label>
+                    </div>  
+                    <div class="x-col cVZBnEr" xid="col18" __cid="cVZBnEr">
+                      <label xid="label19" __cid="cVZBnEr" class="cVZBnEr"/>
+                    </div> 
+                  </div>  
+                  <div component="$model/UI2/system/components/justep/row/row" class="x-row cVZBnEr" xid="row6" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVZBnEr"> 
+                    <div class="x-col x-col-25 cVZBnEr" xid="col21" __cid="cVZBnEr">
+                      <label xid="label20" __cid="cVZBnEr" class="cVZBnEr">抄送单位:</label>
+                    </div>  
+                    <div class="x-col cVZBnEr" xid="col22" __cid="cVZBnEr">
+                      <label xid="label21" __cid="cVZBnEr" class="cVZBnEr"/>
+                    </div> 
+                  </div>  
+                  <div component="$model/UI2/system/components/justep/row/row" class="x-row cVZBnEr" xid="row7" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVZBnEr"> 
+                    <div class="x-col cVZBnEr" xid="col24" __cid="cVZBnEr">
+                      <label xid="label22" __cid="cVZBnEr" class="cVZBnEr">发文人:</label>
+                    </div>  
+                    <div class="x-col cVZBnEr" xid="col25" __cid="cVZBnEr">
+                      <label xid="label23" __cid="cVZBnEr" class="cVZBnEr"/>
+                    </div>  
+                    <div class="x-col cVZBnEr" xid="col26" __cid="cVZBnEr">
+                      <label xid="label24" __cid="cVZBnEr" class="cVZBnEr">发文时间:</label>
+                    </div>  
+                    <div class="x-col cVZBnEr" xid="col27" __cid="cVZBnEr">
+                      <label xid="label25" __cid="cVZBnEr" class="cVZBnEr"/>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+              <hr xid="hr2" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="cVZBnEr" class="cVZBnEr"/>
+              <div xid="div5" __cid="cVZBnEr" class="cVZBnEr">
+                <div component="$model/UI2/system/components/justep/list/list" class="x-list cVZBnEr" xid="list2" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;data2&quot;}" __cid="cVZBnEr"> 
+                  <ul class="x-list-template hide cVZBnEr" xid="listTemplateUl2" bind-foreach="{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}" __cid="cVZBnEr"> 
+                    <li xid="li2" __cid="cVZBnEr" class="cVZBnEr">
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cVZBnEr" xid="row12" bind-click="row12Click" style="width:20%;float:left;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVZBnEr"> 
+                        <div class="x-col cVZBnEr" xid="col19" __cid="cVZBnEr">
+                          <i xid="picbtn" style="color:green;font-size:60px;" bind-css="$object.val(&quot;FILESUFFIXNAME&quot;)=='PDF'?'fa fa-file-pdf-o':$object.val(&quot;FILESUFFIXNAME&quot;)=='DOC' || $object.val(&quot;FILESUFFIXNAME&quot;)=='DOCX'?'fa fa-file-word-o':$object.val(&quot;FILESUFFIXNAME&quot;)=='JPG'?'fa fa-photo':$object.val(&quot;FILESUFFIXNAME&quot;)=='PPT'?'fa fa-file-powerpoint-o':$object.val(&quot;FILESUFFIXNAME&quot;)=='TXT'?'fa fa-file-text':$object.val(&quot;FILESUFFIXNAME&quot;)=='PNG'?'fa fa-photo':$object.val(&quot;FILESUFFIXNAME&quot;)=='XLS'?'fa fa-file-excel-o':$object.val(&quot;FILESUFFIXNAME&quot;)=='PPTX'?'fa fa-file-powerpoint-o':$object.val(&quot;FILESUFFIXNAME&quot;)=='XLSX'?'fa fa-file-excel-o':''" __cid="cVZBnEr" class="cVZBnEr"/>  
+                          <span xid="span9" bind-text="val(&quot;ORIGINALNAME&quot;)" __cid="cVZBnEr" class="cVZBnEr"/>
+                        </div> 
+                      </div>
+                    </li>
+                  </ul> 
+                </div>
+              </div> 
+            </div>  
+            <div class="x-contents-content cVZBnEr" xid="content4" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" data-events="onActive:content4Active" __cid="cVZBnEr">
+              <div xid="div4" __cid="cVZBnEr" class="cVZBnEr">
+                <div component="$model/UI2/system/components/justep/list/list" class="x-list cVZBnEr" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;data1&quot;}" __cid="cVZBnEr"> 
+                  <ul class="x-list-template hide cVZBnEr" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cVZBnEr"> 
+                    <li xid="li1" __cid="cVZBnEr" class="cVZBnEr">
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cVZBnEr" xid="row9" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVZBnEr"> 
+                        <div class="x-col cVZBnEr" xid="col31" __cid="cVZBnEr">
+                          <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label50 cVZBnEr" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cVZBnEr"> 
+                            <label class="x-label cVZBnEr" xid="label26" bind-text="label(&quot;nodetypename&quot;)" __cid="cVZBnEr"/>  
+                            <div component="$model/UI2/system/components/justep/output/output" class="x-output x-edit cVZBnEr" xid="output1" data-bind="component:{ref:ref(&quot;nodetypename&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cVZBnEr"/>
+                          </div>
+                        </div>  
+                        <div class="x-col cVZBnEr" xid="col32" __cid="cVZBnEr">
+                          <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label50 cVZBnEr" xid="labelEdit3" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cVZBnEr"> 
+                            <label class="x-label cVZBnEr" xid="label27" bind-text="label(&quot;personnelname&quot;)" __cid="cVZBnEr"/>  
+                            <div component="$model/UI2/system/components/justep/output/output" class="x-output x-edit cVZBnEr" xid="output2" data-bind="component:{ref:ref(&quot;personnelname&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cVZBnEr"/>
+                          </div>
+                        </div> 
+                      </div>  
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cVZBnEr" xid="row10" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVZBnEr"> 
+                        <div class="x-col cVZBnEr" xid="col34" __cid="cVZBnEr">
+                          <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label25 cVZBnEr" xid="labelEdit4" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cVZBnEr"> 
+                            <label class="x-label cVZBnEr" xid="label28" bind-text="label(&quot;viewcontents&quot;)" __cid="cVZBnEr"/>  
+                            <div component="$model/UI2/system/components/justep/output/output" class="x-output x-edit cVZBnEr" xid="output3" data-bind="component:{ref:ref(&quot;viewcontents&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cVZBnEr"/>
+                          </div>
+                        </div> 
+                      </div>  
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cVZBnEr" xid="row11" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVZBnEr"> 
+                        <div class="x-col cVZBnEr" xid="col37" __cid="cVZBnEr">
+                          <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label25 cVZBnEr" xid="labelEdit5" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cVZBnEr"> 
+                            <label class="x-label cVZBnEr" xid="label29" bind-text="label(&quot;createdate&quot;)" __cid="cVZBnEr"/>  
+                            <div component="$model/UI2/system/components/justep/output/output" class="x-output x-edit cVZBnEr" xid="output4" data-bind="component:{ref:ref(&quot;createdate&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cVZBnEr"/>
+                          </div>
+                        </div> 
+                      </div>  
+                      <hr xid="hr1" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="cVZBnEr" class="cVZBnEr"/>
+                    </li>
+                  </ul> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <style __cid="cVZBnEr" class="cVZBnEr">.x-panel.p7250b66a401d452583beffd07f907229-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p7250b66a401d452583beffd07f907229-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p7250b66a401d452583beffd07f907229-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p7250b66a401d452583beffd07f907229-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p7250b66a401d452583beffd07f907229-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p7250b66a401d452583beffd07f907229-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p7250b66a401d452583beffd07f907229-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p7250b66a401d452583beffd07f907229-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p7250b66a401d452583beffd07f907229-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+      </div>
+    </div>  
+    <div class="x-panel-bottom cVZBnEr" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cVZBnEr">
+      <div xid="div2" __cid="cVZBnEr" class="cVZBnEr">
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cVZBnEr" xid="row8" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVZBnEr"> 
+          <div class="x-col cVZBnEr" xid="col7" style="text-align:center;" __cid="cVZBnEr">
+            <a component="$model/UI2/system/components/justep/button/button" class="btn x-green cVZBnEr" xid="button4" style="width:70%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button4Click" data-config="{&quot;label&quot;:&quot;已阅&quot;}" __cid="cVZBnEr"> 
+              <i xid="i4" __cid="cVZBnEr" class="cVZBnEr"/>  
+              <span xid="span4" __cid="cVZBnEr" class="cVZBnEr">已阅</span>
+            </a>
+          </div>  
+          <div class="x-col cVZBnEr" xid="col11" style="text-align:center;" __cid="cVZBnEr">
+            <a component="$model/UI2/system/components/justep/button/button" class="btn x-green cVZBnEr" xid="button5" style="width:70%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button5Click" data-config="{&quot;label&quot;:&quot;传阅&quot;}" __cid="cVZBnEr"> 
+              <i xid="i5" __cid="cVZBnEr" class="cVZBnEr"/>  
+              <span xid="span5" __cid="cVZBnEr" class="cVZBnEr">传阅</span>
+            </a>
+          </div> 
+        </div>
+      </div>
+    </div>
+    <style __cid="cVZBnEr" class="cVZBnEr">.x-panel.p2aabed353cde47f691d2a4a2c2d75bde-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p2aabed353cde47f691d2a4a2c2d75bde-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p2aabed353cde47f691d2a4a2c2d75bde-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p2aabed353cde47f691d2a4a2c2d75bde-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p2aabed353cde47f691d2a4a2c2d75bde-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p2aabed353cde47f691d2a4a2c2d75bde-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p2aabed353cde47f691d2a4a2c2d75bde-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p2aabed353cde47f691d2a4a2c2d75bde-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p2aabed353cde47f691d2a4a2c2d75bde-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>  
+  <div component="$model/UI2/system/components/justep/popOver/popOver" class="x-popOver cVZBnEr" xid="popOver1" data-bind="component:{name:'$model/UI2/system/components/justep/popOver/popOver'}" data-config="{&quot;direction&quot;:&quot;auto&quot;,&quot;opacity&quot;:0.7}" __cid="cVZBnEr"> 
+    <div class="x-popOver-overlay cVZBnEr" xid="div6" __cid="cVZBnEr"/>  
+    <div class="x-popOver-content cVZBnEr" xid="div7" align="center" style="width:90%;" __cid="cVZBnEr">
+      <div class="panel panel-default cVZBnEr" component="$model/UI2/system/components/bootstrap/panel/panel" xid="panel3" data-bind="component:{name:'$model/UI2/system/components/bootstrap/panel/panel'}" __cid="cVZBnEr"> 
+        <div class="panel-heading cVZBnEr" xid="heading1" __cid="cVZBnEr"> 
+          <h4 class="panel-title cVZBnEr" xid="h41" __cid="cVZBnEr">传阅</h4>
+        </div>  
+        <div class="panel-body cVZBnEr" xid="body1" __cid="cVZBnEr"> 
+          <div xid="div8" __cid="cVZBnEr" class="cVZBnEr">
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cVZBnEr" xid="row13" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVZBnEr"> 
+              <div class="x-col x-col-80 cVZBnEr" xid="col28" __cid="cVZBnEr">
+                <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cVZBnEr" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cVZBnEr"> 
+                  <label class="x-label cVZBnEr" xid="label1" __cid="cVZBnEr">传阅人:
+                    <font color="red" __cid="cVZBnEr" class="cVZBnEr">*</font>
+                  </label>  
+                  <textarea component="$model/UI2/system/components/justep/textarea/textarea" class="form-control x-edit cVZBnEr" xid="textarea1" readonly="true" data-bind="component:{name:'$model/UI2/system/components/justep/textarea/textarea'}" __cid="cVZBnEr"/>
+                </div>
+              </div>  
+              <div class="x-col x-col-center cVZBnEr" xid="col29" __cid="cVZBnEr">
+                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cVZBnEr" xid="button6" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button6Click" data-config="{&quot;icon&quot;:&quot;linear linear-book&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cVZBnEr"> 
+                  <i xid="i6" class="linear linear-book cVZBnEr" __cid="cVZBnEr"/>  
+                  <span xid="span6" __cid="cVZBnEr" class="cVZBnEr"/>
+                </a>
+              </div> 
+            </div>
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cVZBnEr" xid="row14" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVZBnEr"> 
+              <div class="x-col cVZBnEr" xid="col33" __cid="cVZBnEr">
+                <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label25 cVZBnEr" xid="labelEdit6" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cVZBnEr"> 
+                  <label class="x-label cVZBnEr" xid="label3" __cid="cVZBnEr">处理意见:</label>  
+                  <textarea component="$model/UI2/system/components/justep/textarea/textarea" class="form-control x-edit cVZBnEr" xid="textarea2" data-bind="component:{name:'$model/UI2/system/components/justep/textarea/textarea'}" __cid="cVZBnEr"/>
+                </div>
+              </div> 
+            </div> 
+          </div>
+        </div>  
+        <div class="panel-footer cVZBnEr" xid="footer1" __cid="cVZBnEr">
+          <div xid="div9" __cid="cVZBnEr" class="cVZBnEr">
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cVZBnEr" xid="row15" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVZBnEr"> 
+              <div class="x-col cVZBnEr" xid="col30" __cid="cVZBnEr">
+                <a component="$model/UI2/system/components/justep/button/button" class="btn x-green cVZBnEr" xid="button7" style="width:50%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button7Click" data-config="{&quot;label&quot;:&quot;取消&quot;}" __cid="cVZBnEr"> 
+                  <i xid="i7" __cid="cVZBnEr" class="cVZBnEr"/>  
+                  <span xid="span7" __cid="cVZBnEr" class="cVZBnEr">取消</span>
+                </a>
+              </div>  
+              <div class="x-col cVZBnEr" xid="col38" __cid="cVZBnEr">
+                <a component="$model/UI2/system/components/justep/button/button" class="btn x-green cVZBnEr" xid="button8" style="width:50%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button8Click" data-config="{&quot;label&quot;:&quot;确定&quot;}" __cid="cVZBnEr"> 
+                  <i xid="i8" __cid="cVZBnEr" class="cVZBnEr"/>  
+                  <span xid="span8" __cid="cVZBnEr" class="cVZBnEr">确定</span>
+                </a>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-events="onReceive:windowDialog1Receive" data-config="{&quot;src&quot;:&quot;$model/UI2/emp_app/15send/personnel.w&quot;}" __cid="cVZBnEr" class="cVZBnEr">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cVZBnEr" __cid="cVZBnEr"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cVZBnEr" style="display:none;" __cid="cVZBnEr">
+      <xhtml:div class="x-dialog-title cVZBnEr" __cid="cVZBnEr">
+        <xhtml:button class="close cVZBnEr" __cid="cVZBnEr">
+          <xhtml:span __cid="cVZBnEr" class="cVZBnEr">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cVZBnEr" __cid="cVZBnEr"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cVZBnEr" __cid="cVZBnEr"/>
+    </xhtml:div>
+  </span>
+</div>

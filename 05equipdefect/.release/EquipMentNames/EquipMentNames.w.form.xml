@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cFBBbea" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cFBBbea" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/windowReceiver/windowReceiver,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-row.cFBBbea{padding: 0px} .hr1.cFBBbea{margin-top: 0px; margin-bottom: 0px} .x-dialog-body.cFBBbea{padding: 0px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cFBBbea" class="cFBBbea"/>  
+  <span component="$model/UI2/system/components/justep/windowReceiver/windowReceiver" xid="windowReceiver1" data-bind="component:{name:'$model/UI2/system/components/justep/windowReceiver/windowReceiver'}" data-events="onReceive:windowReceiver1Receive" __cid="cFBBbea" class="cFBBbea"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pe63119eb36424cd18185974fe0493011-iosstatusbar cFBBbea" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cFBBbea"> 
+    <div class="x-panel-content cFBBbea" xid="content2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cFBBbea">
+      <div xid="div1" __cid="cFBBbea" class="cFBBbea">
+        <div component="$model/UI2/system/components/justep/list/list" class="x-list cFBBbea" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;data1&quot;}" __cid="cFBBbea"> 
+          <ul class="x-list-template x-min-height hide cFBBbea" xid="listTemplateUl1" componentname="$UI/system/components/justep/list/list#listTemplateUl" id="undefined_listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cFBBbea"> 
+            <li xid="li1" class="x-min-height cFBBbea" componentname="li(html)" id="undefined_li1" __cid="cFBBbea">
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row cFBBbea" xid="row1" bind-click="row1Click" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cFBBbea"> 
+                <div class="x-col cFBBbea" xid="col1" __cid="cFBBbea">
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output cFBBbea" xid="output3" data-bind="component:{ref:ref('OLDCODE'),name:'$model/UI2/system/components/justep/output/output'}" __cid="cFBBbea"/>  
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output cFBBbea" xid="output4" data-bind="component:{ref:ref('EQUIPMENTNAME'),name:'$model/UI2/system/components/justep/output/output'}" __cid="cFBBbea"/>
+                </div> 
+              </div>  
+              <hr xid="hr1" class="hr1 cFBBbea" __cid="cFBBbea"/>
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </div>  
+    <style __cid="cFBBbea" class="cFBBbea">.x-panel.pe63119eb36424cd18185974fe0493011-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pe63119eb36424cd18185974fe0493011-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pe63119eb36424cd18185974fe0493011-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pe63119eb36424cd18185974fe0493011-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pe63119eb36424cd18185974fe0493011-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pe63119eb36424cd18185974fe0493011-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pe63119eb36424cd18185974fe0493011-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pe63119eb36424cd18185974fe0493011-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pe63119eb36424cd18185974fe0493011-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+  </div>
+</div>

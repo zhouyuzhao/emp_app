@@ -1,0 +1,20 @@
+.x-card.btn-group .btn.active {
+  color: #FF3333;
+}
+.remind-angle-Css {
+	position: absolute;
+	color: #FFFFFF;
+	vertical-align: super;
+	font-family: Arial;
+	top: -10%;
+	left: 50px;
+	width: 20px;
+	height: 20px;
+	background-color: #ff4141;
+	border-radius: 50%;
+	text-align: center;
+	display: block;
+	line-height: 22px;
+	font-size: 13px;
+	font-weight: normal;
+}

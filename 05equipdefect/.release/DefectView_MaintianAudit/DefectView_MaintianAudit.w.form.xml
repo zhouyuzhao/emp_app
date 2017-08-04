@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window c2MzEz2" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="c2MzEz2" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/textarea/textarea,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/popOver/popOver,$model/UI2/system/components/justep/windowReceiver/windowReceiver,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-row.c2MzEz2{padding: 0px} .x-col.c2MzEz2{padding: 4px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onActive:modelActive;onParamsReceive:modelParamsReceive" __cid="c2MzEz2" class="c2MzEz2"></div>  
+  <div component="$model/UI2/system/components/justep/popOver/popOver" class="x-popOver c2MzEz2" xid="demoPopOver" style="background-color:black;" data-bind="component:{name:'$model/UI2/system/components/justep/popOver/popOver'}" data-config="{&quot;direction&quot;:&quot;right-top&quot;,&quot;opacity&quot;:0.8,&quot;position&quot;:&quot;center&quot;}" __cid="c2MzEz2"> 
+    <div class="x-popOver-overlay c2MzEz2" xid="div1" __cid="c2MzEz2"/>  
+    <div class="x-popOver-content c2MzEz2" xid="div2" style="width:80%;margin-right:10%;margin-left:10%;" __cid="c2MzEz2"> 
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row10" style="height:60px;border-radius:10px  10px 0 0;background-color:#2fa4e7;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+        <div class="x-col c2MzEz2" xid="col10" bind-text="'退回原因'" style="text-align:center;color:#FFFFFF;line-height:30px;font-size:18px;" __cid="c2MzEz2"/>
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row12" style="background-color:#FFFFFF;height:150px;padding-top:5px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+        <div class="x-col c2MzEz2" xid="col1" __cid="c2MzEz2"> 
+          <textarea component="$model/UI2/system/components/justep/textarea/textarea" class="form-control c2MzEz2" xid="textarea1" style="height:137px;" data-bind="component:{name:'$model/UI2/system/components/justep/textarea/textarea'}" __cid="c2MzEz2"/>
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row11" style="background-color:#FFFFFF;height:60px;padding-top:8px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+        <div class="x-col c2MzEz2" xid="col16" style="text-align:center;" __cid="c2MzEz2"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn x-green c2MzEz2" xid="returnBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:returnBtnClick" data-config="{&quot;label&quot;:&quot;返回&quot;}" __cid="c2MzEz2"> 
+            <i xid="i4" __cid="c2MzEz2" class="c2MzEz2"/>  
+            <span xid="span4" __cid="c2MzEz2" class="c2MzEz2">返回</span>
+          </a> 
+        </div>  
+        <div class="x-col c2MzEz2" xid="col13" style="text-align:center;" __cid="c2MzEz2"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn x-green c2MzEz2" xid="enterBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:enterBtnClick" data-config="{&quot;label&quot;:&quot;确定&quot;}" __cid="c2MzEz2"> 
+            <i xid="i4" __cid="c2MzEz2" class="c2MzEz2"/>  
+            <span xid="span4" __cid="c2MzEz2" class="c2MzEz2">确定</span>
+          </a> 
+        </div> 
+      </div>  
+      <div xid="InfoBox" style="width:70%;margin-right:15%;margin-left:15%;height:120px;position:absolute;display:none;z-index:99;top:75px;border-radius:5px;background-color:#ccc;" __cid="c2MzEz2" class="c2MzEz2"> 
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row15" style="height:50px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+          <div class="x-col c2MzEz2" xid="col25" style="text-align:center;font-size:16px;color:#000000;" bind-text="&quot;温馨提醒&quot;" __cid="c2MzEz2"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row13" style="height:40px;font-size:20;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+          <div class="x-col c2MzEz2" xid="col25" style="text-align:center;color:#000000;font-size:14px;" bind-text="&quot;请填写退回原因!&quot;" __cid="c2MzEz2"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row14" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+          <div class="x-col c2MzEz2" xid="col28" style="text-align:center;" __cid="c2MzEz2"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn x-green c2MzEz2" xid="OkBtn" style="height:30px;text-align:center;line-height:15px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:OkBtnClick" data-config="{&quot;label&quot;:&quot;OK&quot;}" __cid="c2MzEz2"> 
+              <i xid="i6" __cid="c2MzEz2" class="c2MzEz2"/>  
+              <span xid="span13" __cid="c2MzEz2" class="c2MzEz2">OK</span>
+            </a> 
+          </div> 
+        </div> 
+      </div>
+    </div> 
+  </div>
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p6cbdc7bd6d234318a83bf8b3b27f3adb-iosstatusbar c2MzEz2" xid="panel1" style="background-color:#f0f3f4;" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c2MzEz2"> 
+    <div class="x-panel-top c2MzEz2" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c2MzEz2"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar c2MzEz2" xid="titleBar" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="c2MzEz2"> 
+        <div xid="left1" __cid="c2MzEz2" class="c2MzEz2"></div>  
+        <div class="x-titlebar-title flex2 c2MzEz2" xid="title1" __cid="c2MzEz2"> 
+          <div component="$model/UI2/system/components/justep/output/output" class="x-output c2MzEz2" xid="output" style="text-align:center;color:#FFFFFF;font-size:large;height:44px;margin-top:-10px;width:379px;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="c2MzEz2"/>
+        </div>  
+        <div xid="right1" __cid="c2MzEz2" class="c2MzEz2"/>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon c2MzEz2" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button2Click" data-config="{&quot;icon&quot;:&quot;icon-android-close&quot;}" __cid="c2MzEz2"> 
+          <i xid="i7" class="icon-android-close c2MzEz2" __cid="c2MzEz2"/>  
+          <span xid="span7" __cid="c2MzEz2" class="c2MzEz2"/>
+        </a>
+      </div>
+    </div>  
+    <div class="x-panel-content c2MzEz2" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c2MzEz2">
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+        <div class="x-col x-col-25 c2MzEz2" xid="col2" bind-text="'所属机组：'" style="border-color:#e6eaec #e6eaec #e6eaec #e6eaec;text-align:center;line-height:35px;border-width:1px 1px 1px 1px;border-radius:5px  0 0 0;border-style:solid none solid solid;" __cid="c2MzEz2"/>  
+        <div class="x-col c2MzEz2" xid="col3" style="border-style:solid inset inset none;border-width:1px 1px 1px 1px;border-color:#e6eaec #e6eaec #e6eaec #e6eaec;border-radius:0  5px 0 0;background-color:#FFFFFF;" __cid="c2MzEz2">
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control c2MzEz2" xid="input1" style="background-color:#FFFFFF;border:0px;height:30px;font-size:16px;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;readonly&quot;:true}" __cid="c2MzEz2"/>
+        </div>
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+        <div class="x-col x-col-25 c2MzEz2" xid="col5" bind-text="'设备名称：'" style="border-color:#e6eaec #e6eaec #e6eaec #e6eaec;border-style:none none inset solid;text-align:center;line-height:35px;border-width:1px 1px 1px 1px;" __cid="c2MzEz2"/>  
+        <div class="x-col c2MzEz2" xid="col6" style="border-style:none inset inset none;border-width:1px 1px 1px 1px;border-color:#e6eaec #e6eaec #e6eaec #e6eaec;background-color:#FFFFFF;" __cid="c2MzEz2">
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control c2MzEz2" xid="input2" style="background-color:#FFFFFF;border:0px;height:30px;font-size:16px;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;readonly&quot;:true}" __cid="c2MzEz2"/>
+        </div>
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+        <div class="x-col x-col-25 c2MzEz2" xid="col8" bind-text="'kks编码：'" style="border-color:#e6eaec #e6eaec #e6eaec #e6eaec;border-style:none none inset solid;text-align:center;line-height:35px;border-width:1px 1px 1px 1px;" __cid="c2MzEz2"/>  
+        <div class="x-col c2MzEz2" xid="col9" style="border-style:none inset inset none;border-width:1px 1px 1px 1px;border-color:#e6eaec #e6eaec #e6eaec #e6eaec;background-color:#FFFFFF;" __cid="c2MzEz2">
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control c2MzEz2" xid="input3" style="background-color:#FFFFFF;border:0px;height:30px;font-size:16px;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;readonly&quot;:true}" __cid="c2MzEz2"/>
+        </div>
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+        <div class="x-col x-col-25 c2MzEz2" xid="col11" bind-text="'缺陷部位：'" style="border-color:#e6eaec #e6eaec #e6eaec #e6eaec;border-style:none none inset solid;text-align:center;line-height:35px;border-width:1px 1px 1px 1px;" __cid="c2MzEz2"/>  
+        <div class="x-col c2MzEz2" xid="col12" style="border-style:none inset inset none;border-width:1px 1px 1px 1px;border-color:#e6eaec #e6eaec #e6eaec #e6eaec;background-color:#FFFFFF;" __cid="c2MzEz2">
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control c2MzEz2" xid="input4" style="background-color:#FFFFFF;border:0px;height:30px;font-size:16px;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;readonly&quot;:true}" __cid="c2MzEz2"/>
+        </div>
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+        <div class="x-col x-col-25 c2MzEz2" xid="col14" bind-text="'缺陷等级：'" style="border-color:#e6eaec #e6eaec #e6eaec #e6eaec;border-style:none none inset solid;text-align:center;line-height:35px;border-width:1px 1px 1px 1px;" __cid="c2MzEz2"/>  
+        <div class="x-col c2MzEz2" xid="col15" style="border-style:none inset inset none;border-width:1px 1px 1px 1px;border-color:#e6eaec #e6eaec #e6eaec #e6eaec;background-color:#FFFFFF;" __cid="c2MzEz2">
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control c2MzEz2" xid="input5" style="background-color:#FFFFFF;border:0px;height:30px;font-size:16px;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;readonly&quot;:true}" __cid="c2MzEz2"/>
+        </div>
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row6" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+        <div class="x-col x-col-25 c2MzEz2" xid="col17" bind-text="'缺陷内容：'" style="border-color:#e6eaec #e6eaec #e6eaec #e6eaec;border-style:none none inset solid;text-align:center;line-height:35px;border-width:1px 1px 1px 1px;" __cid="c2MzEz2"/>  
+        <div class="x-col c2MzEz2" xid="col18" style="border-style:none inset inset none;border-width:1px 1px 1px 1px;border-color:#e6eaec #e6eaec #e6eaec #e6eaec;background-color:#FFFFFF;" __cid="c2MzEz2">
+          <span xid="span5" style="font-size:16px;margin-left:10px;" __cid="c2MzEz2" class="c2MzEz2"/>
+        </div>
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row7" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+        <div class="x-col x-col-25 c2MzEz2" xid="col20" bind-text="'发现人：'" style="border-color:#e6eaec #e6eaec #e6eaec #e6eaec;border-style:none none inset solid;text-align:center;line-height:35px;border-width:1px 1px 1px 1px;" __cid="c2MzEz2"/>  
+        <div class="x-col c2MzEz2" xid="col21" style="border-style:none inset inset none;border-width:1px 1px 1px 1px;border-color:#e6eaec #e6eaec #e6eaec #e6eaec;background-color:#FFFFFF;" __cid="c2MzEz2">
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control c2MzEz2" xid="input6" style="background-color:#FFFFFF;border:0px;height:30px;font-size:16px;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;readonly&quot;:true}" __cid="c2MzEz2"/>
+        </div>
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row8" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+        <div class="x-col x-col-25 c2MzEz2" xid="col22" bind-text="'发现时间：'" style="border-color:#e6eaec #e6eaec #e6eaec #e6eaec;border-style:none none inset solid;text-align:center;line-height:35px;border-width:1px 1px 1px 1px;" __cid="c2MzEz2"/>  
+        <div class="x-col c2MzEz2" xid="col24" style="border-style:none inset inset none;border-width:1px 1px 1px 1px;border-color:#e6eaec #e6eaec #e6eaec #e6eaec;background-color:#FFFFFF;" __cid="c2MzEz2">
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control c2MzEz2" xid="input7" style="background-color:#FFFFFF;border:0px;height:30px;font-size:16px;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;readonly&quot;:true}" __cid="c2MzEz2"/>
+        </div>
+      </div>  
+      <div xid="div3" __cid="c2MzEz2" class="c2MzEz2">
+        <div component="$model/UI2/system/components/justep/list/list" class="x-list c2MzEz2" xid="list2" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;autoLoad&quot;:true,&quot;data&quot;:&quot;data1&quot;}" __cid="c2MzEz2"> 
+          <ul class="x-list-template hide c2MzEz2" xid="listTemplateUl2" bind-foreach="{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}" __cid="c2MzEz2"> 
+            <li xid="li2" __cid="c2MzEz2" class="c2MzEz2">
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row14" style="float:left;width:25%;" bind-click="row14Click" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+                <div class="x-col c2MzEz2" xid="col19" __cid="c2MzEz2">
+                  <i xid="i5" style="color:green;font-size:50px;" bind-css="$object.val(&quot;filesuffixname&quot;)=='JPG'?'fa fa-photo':$object.val(&quot;filesuffixname&quot;)=='MP4'?'fa fa-video-camera':'fa fa-volume-up'" __cid="c2MzEz2" class="c2MzEz2"/>
+                </div> 
+              </div>
+            </li>
+          </ul> 
+        </div>
+      </div> 
+    </div>  
+    <div class="x-panel-bottom c2MzEz2" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c2MzEz2">
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row c2MzEz2" xid="row9" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2MzEz2"> 
+        <div class="x-col c2MzEz2" xid="col4" style="text-align:center;" __cid="c2MzEz2">
+          <a component="$model/UI2/system/components/justep/button/button" class="btn x-green c2MzEz2" xid="goBtn" style="width:80%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:goBtnClick" data-config="{&quot;label&quot;:&quot;退回&quot;}" __cid="c2MzEz2"> 
+            <i xid="i1" __cid="c2MzEz2" class="c2MzEz2"/>  
+            <span xid="span1" __cid="c2MzEz2" class="c2MzEz2">退回</span>
+          </a>
+        </div>  
+        <div class="x-col c2MzEz2" xid="col7" style="text-align:center;" __cid="c2MzEz2">
+          <a component="$model/UI2/system/components/justep/button/button" class="btn x-green c2MzEz2" xid="passBtn" style="width:80%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:passBtnClick" data-config="{&quot;label&quot;:&quot;确认&quot;}" __cid="c2MzEz2"> 
+            <i xid="i2" __cid="c2MzEz2" class="c2MzEz2"/>  
+            <span xid="span2" __cid="c2MzEz2" class="c2MzEz2">确认</span>
+          </a>
+        </div> 
+      </div>
+    </div>
+    <style __cid="c2MzEz2" class="c2MzEz2">.x-panel.p6cbdc7bd6d234318a83bf8b3b27f3adb-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p6cbdc7bd6d234318a83bf8b3b27f3adb-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p6cbdc7bd6d234318a83bf8b3b27f3adb-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p6cbdc7bd6d234318a83bf8b3b27f3adb-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p6cbdc7bd6d234318a83bf8b3b27f3adb-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p6cbdc7bd6d234318a83bf8b3b27f3adb-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p6cbdc7bd6d234318a83bf8b3b27f3adb-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p6cbdc7bd6d234318a83bf8b3b27f3adb-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p6cbdc7bd6d234318a83bf8b3b27f3adb-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>  
+  <span component="$model/UI2/system/components/justep/windowReceiver/windowReceiver" xid="windowReceiver1" style="left:12px;top:53px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowReceiver/windowReceiver'}" __cid="c2MzEz2" class="c2MzEz2"/>
+</div>

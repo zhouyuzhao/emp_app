@@ -1,0 +1,17 @@
+.x-row{
+	padding: 0px;
+}
+
+.x-output{
+	padding-top: 0px;
+}
+.hr1{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+p{
+	margin:0px 0px 0px 0px;
+}
+.x-card.btn-group .btn.active {
+  color: #FF3333;
+}

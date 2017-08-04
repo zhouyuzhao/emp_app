@@ -1,0 +1,16 @@
+.btn {
+    white-space: normal;
+}
+.btn.x-reds {
+    color: #ffffff;
+    background-color: #d9230f;
+    border-color: #d9230f;
+}
+.butt{
+	width:90%;
+	margin:3px; 
+}
+.x-dialog-title-text{
+	font-family : 微软雅黑,宋体;
+	font-size : 30px;
+}

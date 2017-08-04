@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window czEVrE3" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="czEVrE3" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/dataTables/dataTables,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/select/select,$model/UI2/system/components/justep/button/radio,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-col.czEVrE3{text-align: center} .div2.czEVrE3{overflow-y: scroll; OVERFLOW-x: none}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onParamsReceive:modelParamsReceive" __cid="czEVrE3" class="czEVrE3"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pce3d291b51d348de8442cc96d45e8432-iosstatusbar czEVrE3" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="czEVrE3"> 
+    <div class="x-panel-content czEVrE3" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="czEVrE3">
+      <div xid="div4" style="width:100%;z-index:99;position:absolute;background-color:#eee;height:216px;display:none;" __cid="czEVrE3" class="czEVrE3"> 
+        <div xid="div5" style="background-color:#f8f6f6;margin-right:5%;margin-left:5%;width:90%;margin-top:20px;" __cid="czEVrE3" class="czEVrE3"> 
+          <div component="$model/UI2/system/components/justep/row/row" class="x-row czEVrE3" xid="row3" style="padding:0px 0px 0px 0px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEVrE3"> 
+            <div class="x-col czEVrE3" xid="col4" __cid="czEVrE3"> 
+              <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 czEVrE3" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="czEVrE3"> 
+                <label class="x-label czEVrE3" xid="label1" __cid="czEVrE3">开始时间：</label>  
+                <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit czEVrE3" xid="input3" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;dataType&quot;:&quot;Date&quot;}" __cid="czEVrE3"/>
+              </div> 
+            </div> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/row/row" class="x-row czEVrE3" xid="row4" style="padding:0px 0px 0px 0px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEVrE3"> 
+            <div class="x-col czEVrE3" xid="col5" __cid="czEVrE3"> 
+              <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 czEVrE3" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="czEVrE3"> 
+                <label class="x-label czEVrE3" xid="label2" __cid="czEVrE3">结束时间：</label>  
+                <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit czEVrE3" xid="input4" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;dataType&quot;:&quot;Date&quot;,&quot;max&quot;:&quot;js:new Date()&quot;}" __cid="czEVrE3"/>
+              </div> 
+            </div> 
+          </div>
+          <div component="$model/UI2/system/components/justep/row/row" class="x-row czEVrE3" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEVrE3"> 
+            <div class="x-col czEVrE3" xid="col1" style="text-align:center;" __cid="czEVrE3">
+              <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default czEVrE3" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button2Click" data-config="{&quot;label&quot;:&quot;取消&quot;}" __cid="czEVrE3"> 
+                <i xid="i2" __cid="czEVrE3" class="czEVrE3"/>  
+                <span xid="span2" __cid="czEVrE3" class="czEVrE3">取消</span>
+              </a>
+            </div>  
+            <div class="x-col czEVrE3" xid="col2" style="text-align:center;" __cid="czEVrE3">
+              <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default czEVrE3" xid="button3" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button3Click" data-config="{&quot;label&quot;:&quot;确定&quot;}" __cid="czEVrE3"> 
+                <i xid="i1" __cid="czEVrE3" class="czEVrE3"/>  
+                <span xid="span1" __cid="czEVrE3" class="czEVrE3">确定</span>
+              </a>
+            </div> 
+          </div> 
+        </div> 
+      </div>
+      <div xid="div1" style="width:100%;" __cid="czEVrE3" class="czEVrE3">
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row czEVrE3" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEVrE3"> 
+          <div class="x-col x-col-25 x-col-center czEVrE3" xid="col1" __cid="czEVrE3">
+            <span xid="span1" __cid="czEVrE3" class="czEVrE3">巡检项目：</span>
+          </div>  
+          <div class="x-col czEVrE3" xid="col2" __cid="czEVrE3">
+            <select component="$model/UI2/system/components/justep/select/select" class="form-control czEVrE3" xid="select2" bind-options="data2.datas" bind-optionsValue="'ID'" bind-optionsText="'NAME'" bind-optionsAfterRender2="$model.__justep__.selectOptionsAfterRender.bind($model,$element)" bind-optionsBeforeRender="$model.__justep__.selectOptionsBeforeRender.bind($model,$element)" data-bind="component:{name:'$model/UI2/system/components/justep/select/select'}" data-events="onChange:select2Change" __cid="czEVrE3"/>
+          </div> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row czEVrE3" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEVrE3"> 
+          <div class="x-col x-col-25 x-col-center czEVrE3" xid="col4" __cid="czEVrE3">
+            <span xid="span2" __cid="czEVrE3" class="czEVrE3">展现方式：</span>
+          </div>  
+          <div class="x-col x-col-33 x-col-center czEVrE3" xid="col5" __cid="czEVrE3">
+            <span component="$model/UI2/system/components/justep/button/radio" class="x-radio czEVrE3" xid="radio1" label="数据表格" name="switch" checked="true" style="color:#000000;" data-config="{&quot;checked&quot;:true,&quot;disabled&quot;:false,&quot;label&quot;:&quot;数据表格&quot;,&quot;name&quot;:&quot;switch&quot;}" data-bind="component:{name:'$model/UI2/system/components/justep/button/radio'}" data-events="onChange:radio1Change" __cid="czEVrE3">
+              <xhtml:input xmlns:xhtml="http://www.w3.org/1999/xhtml" type="radio" name="switch" __cid="czEVrE3" class="czEVrE3"/>
+              <xhtml:label xmlns:xhtml="http://www.w3.org/1999/xhtml" __cid="czEVrE3" class="czEVrE3">数据表格</xhtml:label>
+            </span>
+          </div>  
+          <div class="x-col x-col-25 x-col-center czEVrE3" xid="col6" __cid="czEVrE3">
+            <span component="$model/UI2/system/components/justep/button/radio" class="x-radio czEVrE3" xid="radio2" label="趋势图" name="switch" data-config="{&quot;checked&quot;:false,&quot;disabled&quot;:false,&quot;label&quot;:&quot;趋势图&quot;,&quot;name&quot;:&quot;switch&quot;}" data-bind="component:{name:'$model/UI2/system/components/justep/button/radio'}" data-events="onChange:radio2Change" __cid="czEVrE3">
+              <xhtml:input xmlns:xhtml="http://www.w3.org/1999/xhtml" type="radio" name="switch" __cid="czEVrE3" class="czEVrE3"/>
+              <xhtml:label xmlns:xhtml="http://www.w3.org/1999/xhtml" __cid="czEVrE3" class="czEVrE3">趋势图</xhtml:label>
+            </span>
+          </div>  
+          <div class="x-col x-col-fixed x-col-center czEVrE3" xid="col11" style="width:auto;" __cid="czEVrE3">
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon czEVrE3" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;icon&quot;:&quot;icon-android-add&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="czEVrE3"> 
+              <i xid="i1" class="icon-android-add czEVrE3" __cid="czEVrE3"/>  
+              <span xid="span4" __cid="czEVrE3" class="czEVrE3"/>
+            </a>
+          </div>
+        </div> 
+      </div>  
+      <hr xid="hr3" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="czEVrE3" class="czEVrE3"/>
+      <div xid="div2" class="div2 czEVrE3" style="width:100%;border-style:solid solid solid solid;border-width:thin thin thin thin;border-color:#FFFFFF #FFFFFF #FFFFFF #FFFFFF;height:75%;" align="center" __cid="czEVrE3">
+        <xhtml:table xmlns:xhtml="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/dataTables/dataTables" flexibleWidth="true" responsive="true" class="table table-hover table-striped czEVrE3" xid="dataTables3" data="data3" showRowNumber="true" ordering="false" style="text-align:center;" rowAttr="$row.val('ISNORMAL')=='正常'?'':{style:'background:yellow;color:red'}" data-config="{&quot;columns&quot;:[{&quot;className&quot;:&quot;x-dt-title-center x-dt-cell-center&quot;,&quot;sName&quot;:&quot;RECODEDATE&quot;,&quot;width&quot;:&quot;42%&quot;,&quot;xid&quot;:&quot;column3&quot;},{&quot;className&quot;:&quot;x-dt-title-center x-dt-cell-center&quot;,&quot;sName&quot;:&quot;VALUE&quot;,&quot;width&quot;:&quot;23%&quot;,&quot;xid&quot;:&quot;column6&quot;},{&quot;className&quot;:&quot;x-dt-title-center x-dt-cell-center&quot;,&quot;sName&quot;:&quot;ISNORMAL&quot;,&quot;width&quot;:&quot;25%&quot;,&quot;xid&quot;:&quot;column5&quot;}],&quot;data&quot;:&quot;data3&quot;,&quot;flexibleWidth&quot;:true,&quot;ordering&quot;:false,&quot;responsive&quot;:true,&quot;rowAttr&quot;:&quot;$row.val('ISNORMAL')=='正常'?'':{style:'background:yellow;color:red'}&quot;,&quot;showRowNumber&quot;:true}" data-bind="component:{name:'$model/UI2/system/components/justep/dataTables/dataTables'}" data-events="onRowClick:dataTables3RowClick" __cid="czEVrE3"/>
+      </div>  
+      <div xid="div6" style="display:none;height:370px;width:360px;" class="div6 czEVrE3" __cid="czEVrE3"/> 
+    </div>  
+    <style __cid="czEVrE3" class="czEVrE3">.x-panel.pce3d291b51d348de8442cc96d45e8432-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pce3d291b51d348de8442cc96d45e8432-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pce3d291b51d348de8442cc96d45e8432-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pce3d291b51d348de8442cc96d45e8432-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pce3d291b51d348de8442cc96d45e8432-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pce3d291b51d348de8442cc96d45e8432-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pce3d291b51d348de8442cc96d45e8432-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pce3d291b51d348de8442cc96d45e8432-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pce3d291b51d348de8442cc96d45e8432-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+  </div> 
+</div>

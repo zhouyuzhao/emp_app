@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cqM3i6r" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cqM3i6r" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-row.cqM3i6r{padding: 0px} .x-output.cqM3i6r{padding-top: 0px} .hr1.cqM3i6r{margin-top: 0px; margin-bottom: 0px} p.cqM3i6r{margin: 0px 0px 0px 0px}</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cqM3i6r" class="cqM3i6r"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p8f83d73f60a1400e8cf899897f3b2f9f-iosstatusbar cqM3i6r" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cqM3i6r"> 
+    <div class="x-panel-content cqM3i6r" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cqM3i6r"> 
+      <div class="x-scroll cqM3i6r" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cqM3i6r"> 
+        <div class="x-content-center x-pull-down container cqM3i6r" xid="div2" __cid="cqM3i6r"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cqM3i6r" xid="i6" __cid="cqM3i6r"/>  
+          <span class="x-pull-down-label cqM3i6r" xid="span13" __cid="cqM3i6r">下拉刷新...</span> 
+        </div>  
+        <div class="x-scroll-content cqM3i6r" xid="div3" __cid="cqM3i6r"> 
+          <div xid="div1" __cid="cqM3i6r" class="cqM3i6r"> 
+            <div component="$model/UI2/system/components/justep/list/list" class="x-list cqM3i6r" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;autoLoad&quot;:true,&quot;data&quot;:&quot;data1&quot;,&quot;limit&quot;:4}" __cid="cqM3i6r"> 
+              <ul class="x-list-template x-min-height hide cqM3i6r" xid="listTemplateUl1" componentname="$UI/system/components/justep/list/list#listTemplateUl" id="undefined_listTemplateUl1" __cid="cqM3i6r" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+                <li xid="li1" class="x-min-height cqM3i6r" componentname="li(html)" id="undefined_li1" __cid="cqM3i6r"> 
+                  <div component="$model/UI2/system/components/justep/row/row" class="x-row cqM3i6r" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'},event:{click:$model._callModelFn.bind($model, 'row1Click')}" __cid="cqM3i6r"> 
+                    <div class="x-col cqM3i6r" xid="col1" __cid="cqM3i6r"> 
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cqM3i6r" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cqM3i6r"> 
+                        <div class="x-col x-col-25 x-col-center cqM3i6r" xid="col4" style="text-align:center;" __cid="cqM3i6r"> 
+                          <span xid="span6" __cid="cqM3i6r" class="cqM3i6r">缺陷编号：</span> 
+                        </div>  
+                        <div class="x-col cqM3i6r" xid="col5" __cid="cqM3i6r"> 
+                          <div component="$model/UI2/system/components/justep/output/output" class="x-output x-report cqM3i6r" xid="output1" data-bind="component:{ref:ref('reportcode'),name:'$model/UI2/system/components/justep/output/output'}" __cid="cqM3i6r"/> 
+                        </div>  
+                        <div class="x-col cqM3i6r" xid="col6" style="text-align:center;" __cid="cqM3i6r"> 
+                          <div component="$model/UI2/system/components/justep/output/output" class="x-output x-report cqM3i6r" xid="output2" style="font-weight:bold;font-size:16px;" data-bind="component:{ref:ref('recordstatusname'),name:'$model/UI2/system/components/justep/output/output'},style:{'color' : $object.val(&quot;recordstatuscolor&quot;)  != null ? $object.val(&quot;recordstatuscolor&quot;) : null}" __cid="cqM3i6r"/> 
+                        </div> 
+                      </div>  
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cqM3i6r" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cqM3i6r"> 
+                        <div class="x-col x-col-25 x-col-center cqM3i6r" xid="col7" style="text-align:center;" __cid="cqM3i6r"> 
+                          <span xid="span10" __cid="cqM3i6r" class="cqM3i6r">设备名称：</span> 
+                        </div>  
+                        <div class="x-col cqM3i6r" xid="col8" __cid="cqM3i6r"> 
+                          <div component="$model/UI2/system/components/justep/output/output" class="x-output x-report cqM3i6r" xid="output3" style="font-weight:bold;" data-bind="component:{ref:ref('equipmentname'),name:'$model/UI2/system/components/justep/output/output'}" __cid="cqM3i6r"/> 
+                        </div> 
+                      </div>  
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cqM3i6r" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cqM3i6r"> 
+                        <div class="x-col x-col-25 x-col-center cqM3i6r" xid="col10" style="text-align:center;" __cid="cqM3i6r"> 
+                          <span xid="span11" __cid="cqM3i6r" class="cqM3i6r">缺陷描述：</span> 
+                        </div>  
+                        <div class="x-col cqM3i6r" xid="col11" __cid="cqM3i6r"> 
+                          <p xid="p2" __cid="cqM3i6r" class="cqM3i6r" data-bind="text:$object.val(&quot;defectlinfo&quot;)"/> 
+                        </div> 
+                      </div>  
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cqM3i6r" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cqM3i6r"> 
+                        <div class="x-col x-col-25 x-col-center cqM3i6r" xid="col13" style="text-align:center;" __cid="cqM3i6r"> 
+                          <span xid="span12" __cid="cqM3i6r" class="cqM3i6r">报告人：</span> 
+                        </div>  
+                        <div class="x-col x-col-20 x-col-center cqM3i6r" xid="col14" __cid="cqM3i6r"> 
+                          <div component="$model/UI2/system/components/justep/output/output" class="x-output x-report cqM3i6r" xid="output4" data-bind="component:{ref:ref('reportername'),name:'$model/UI2/system/components/justep/output/output'}" __cid="cqM3i6r"/> 
+                        </div>  
+                        <div class="x-col cqM3i6r" xid="col15" __cid="cqM3i6r"> 
+                          <div component="$model/UI2/system/components/justep/output/output" class="x-output x-report cqM3i6r" xid="output5" style="color:#FF0000;" data-bind="component:{ref:ref('reportdate'),name:'$model/UI2/system/components/justep/output/output'}" __cid="cqM3i6r"/> 
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div>  
+                  <hr xid="hr1" class="hr1 cqM3i6r" __cid="cqM3i6r"/> 
+                </li> 
+              </ul> 
+            </div> 
+          </div> 
+        </div>  
+        <div class="x-content-center x-pull-up cqM3i6r" xid="div4" __cid="cqM3i6r"> 
+          <span class="x-pull-up-label cqM3i6r" xid="span14" __cid="cqM3i6r">加载更多...</span> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cqM3i6r" class="cqM3i6r">.x-panel.p8f83d73f60a1400e8cf899897f3b2f9f-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.p8f83d73f60a1400e8cf899897f3b2f9f-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.p8f83d73f60a1400e8cf899897f3b2f9f-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p8f83d73f60a1400e8cf899897f3b2f9f-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p8f83d73f60a1400e8cf899897f3b2f9f-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.p8f83d73f60a1400e8cf899897f3b2f9f-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p8f83d73f60a1400e8cf899897f3b2f9f-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p8f83d73f60a1400e8cf899897f3b2f9f-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p8f83d73f60a1400e8cf899897f3b2f9f-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+  </div> 
+</div>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cMb2yim" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cMb2yim" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/select/checkboxGroup,$model/UI2/system/components/justep/textarea/textarea,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/button/checkbox,$model/UI2/system/components/justep/windowReceiver/windowReceiver,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/select/select,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-label.cMb2yim{text-align: right} .x-label30.x-label-edit.cMb2yim &gt; .x-label.cMb2yim{width: 23%} .div2.cMb2yim{overflow-y: scroll; OVERFLOW-x: none} .div2.cMb2yim{border: 1px solid rgb(155, 223, 112)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onParamsReceive:modelParamsReceive" __cid="cMb2yim" class="cMb2yim"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p50afb77a53084d50a74471ba9190d08c-iosstatusbar cMb2yim" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cMb2yim"> 
+    <div class="x-panel-top cMb2yim" xid="top2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cMb2yim">
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cMb2yim" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;指定审批传阅人&quot;}" __cid="cMb2yim"> 
+        <div class="x-titlebar-left cMb2yim" xid="left1" __cid="cMb2yim"/>  
+        <div class="x-titlebar-title cMb2yim" xid="title1" __cid="cMb2yim">指定审批传阅人</div>  
+        <div class="x-titlebar-right  cMb2yim" xid="right1" __cid="cMb2yim">
+          <div class="empty cMb2yim" __cid="cMb2yim"/>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cMb2yim" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;icon&quot;:&quot;icon-android-close&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cMb2yim"> 
+            <i xid="i1" class="icon-android-close cMb2yim" __cid="cMb2yim"/>  
+            <span xid="span1" __cid="cMb2yim" class="cMb2yim"/>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="x-panel-content cMb2yim" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cMb2yim">
+      <div xid="div1" __cid="cMb2yim" class="cMb2yim">
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cMb2yim" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cMb2yim"> 
+          <div class="x-col cMb2yim" xid="col1" __cid="cMb2yim">
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cMb2yim" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cMb2yim"> 
+              <label class="x-label cMb2yim" xid="label1" style="text-align:center;" __cid="cMb2yim">部门:</label>  
+              <select component="$model/UI2/system/components/justep/select/select" class="form-control x-edit cMb2yim" xid="select1" bind-options="data1.datas" bind-optionsValue="'DEPARTMENTID'" bind-optionsText="'DEPARTMENTNAME'" bind-optionsAfterRender2="$model.__justep__.selectOptionsAfterRender.bind($model,$element)" bind-optionsBeforeRender="$model.__justep__.selectOptionsBeforeRender.bind($model,$element)" data-bind="component:{name:'$model/UI2/system/components/justep/select/select'}" data-events="onChange:select1Change" __cid="cMb2yim"/>
+            </div>
+          </div> 
+        </div>
+      </div>  
+      <div xid="div2" style="width:100%;height:60%;" class="div2 cMb2yim" __cid="cMb2yim">
+        <span component="$model/UI2/system/components/justep/select/checkboxGroup" class="x-checkbox-group cMb2yim" xid="checkboxGroup1" bind-foreach="{data:data2.datas,afterRender:$model.comp($element)['_doUpdate'].bind($model.comp($element))}" data-bind="component:{name:'$model/UI2/system/components/justep/select/checkboxGroup'}" __cid="cMb2yim">
+          <xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/button/checkbox" class="x-checkbox cMb2yim" data-config="{&quot;checked&quot;:false,&quot;disabled&quot;:false}" data-bind="component:{name:'$model/UI2/system/components/justep/button/checkbox',label:ref(&quot;PERSONNELNAME&quot;),value:ref(&quot;PERSONNELNAME&quot;)}" __cid="cMb2yim">
+            <xhtml:input type="checkbox" __cid="cMb2yim" class="cMb2yim"/>
+            <xhtml:label __cid="cMb2yim" class="cMb2yim"/>
+          </xhtml:span>
+        </span>
+      </div>  
+      <div xid="div3" class="div3 cMb2yim" __cid="cMb2yim">
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cMb2yim" xid="row2" style="height:120px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cMb2yim"> 
+          <div class="x-col x-col-10 cMb2yim" xid="col2" __cid="cMb2yim">
+            <label xid="label2" style="color:#FF8000;font-size:16px;" __cid="cMb2yim" class="cMb2yim">您选择的人:</label>
+          </div>  
+          <div class="x-col cMb2yim" xid="col3" __cid="cMb2yim">
+            <textarea component="$model/UI2/system/components/justep/textarea/textarea" class="form-control cMb2yim" xid="textarea2" style="height:110px;" data-bind="component:{name:'$model/UI2/system/components/justep/textarea/textarea'}" __cid="cMb2yim"/>
+          </div> 
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-bottom cMb2yim" xid="bottom2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cMb2yim">
+      <div xid="div4" __cid="cMb2yim" class="cMb2yim">
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cMb2yim" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cMb2yim"> 
+          <div class="x-col cMb2yim" xid="col10" style="text-align:center;" __cid="cMb2yim">
+            <a component="$model/UI2/system/components/justep/button/button" class="btn x-green cMb2yim" xid="button2" style="width:50%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button2Click" data-config="{&quot;label&quot;:&quot;添加&quot;}" __cid="cMb2yim"> 
+              <i xid="i2" __cid="cMb2yim" class="cMb2yim"/>  
+              <span xid="span2" __cid="cMb2yim" class="cMb2yim">添加</span>
+            </a>
+          </div>  
+          <div class="x-col cMb2yim" xid="col11" style="text-align:center;" __cid="cMb2yim">
+            <a component="$model/UI2/system/components/justep/button/button" class="btn x-red cMb2yim" xid="button3" style="width:50%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button3Click" data-config="{&quot;label&quot;:&quot;选好了&quot;}" __cid="cMb2yim"> 
+              <i xid="i3" __cid="cMb2yim" class="cMb2yim"/>  
+              <span xid="span3" __cid="cMb2yim" class="cMb2yim">选好了</span>
+            </a>
+          </div> 
+        </div>
+      </div>
+    </div>
+    <style __cid="cMb2yim" class="cMb2yim">.x-panel.p50afb77a53084d50a74471ba9190d08c-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p50afb77a53084d50a74471ba9190d08c-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p50afb77a53084d50a74471ba9190d08c-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p50afb77a53084d50a74471ba9190d08c-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p50afb77a53084d50a74471ba9190d08c-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p50afb77a53084d50a74471ba9190d08c-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p50afb77a53084d50a74471ba9190d08c-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p50afb77a53084d50a74471ba9190d08c-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p50afb77a53084d50a74471ba9190d08c-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>  
+  <span component="$model/UI2/system/components/justep/windowReceiver/windowReceiver" xid="windowReceiver1" data-bind="component:{name:'$model/UI2/system/components/justep/windowReceiver/windowReceiver'}" data-events="onReceive:windowReceiver1Receive" __cid="cMb2yim" class="cMb2yim"/>
+</div>

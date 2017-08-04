@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cEVRfam" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cEVRfam" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cEVRfam" class="cEVRfam"/>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;height&quot;:&quot;100%&quot;,&quot;src&quot;:&quot;$model/UI2/emp_app/07videomonitor/VideoPlay.w&quot;,&quot;width&quot;:&quot;100%&quot;}" __cid="cEVRfam" class="cEVRfam"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cEVRfam" __cid="cEVRfam"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cEVRfam" style="display:none;" __cid="cEVRfam">  
+      <div class="x-dialog-title cEVRfam" __cid="cEVRfam"> 
+        <button class="close cEVRfam" __cid="cEVRfam"> 
+          <span __cid="cEVRfam" class="cEVRfam">×</span> 
+        </button>  
+        <div class="x-dialog-title-text cEVRfam" __cid="cEVRfam"/> 
+      </div>  
+      <div class="x-dialog-body cEVRfam" __cid="cEVRfam"/> 
+    </div> 
+  </span>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pb99d925e68244dba9bb2f4fb6aa6603c-iosstatusbar cEVRfam" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cEVRfam"> 
+    <div class="x-panel-top cEVRfam" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEVRfam"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cEVRfam" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;视频监控&quot;}" __cid="cEVRfam"> 
+        <div class="x-titlebar-left cEVRfam" __cid="cEVRfam"/>  
+        <div class="x-titlebar-title cEVRfam" __cid="cEVRfam">视频监控</div>  
+        <div class="x-titlebar-right  cEVRfam" __cid="cEVRfam"> 
+          <div class="empty cEVRfam" __cid="cEVRfam"/>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cEVRfam" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-android-close&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cEVRfam"> 
+            <i class="icon-android-close cEVRfam" __cid="cEVRfam"/>  
+            <span __cid="cEVRfam" class="cEVRfam"/> 
+          </a> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content  x-scroll-view cEVRfam" xid="content1" _xid="C70FBF439EF000014AAECA001FC5107E" style="bottom: 55px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEVRfam"> 
+      <div class="x-scroll cEVRfam" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cEVRfam"> 
+        <div class="x-content-center x-pull-down container cEVRfam" xid="div1" __cid="cEVRfam"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cEVRfam" xid="i2" __cid="cEVRfam"/>  
+          <span class="x-pull-down-label cEVRfam" xid="span2" __cid="cEVRfam">下拉刷新...</span> 
+        </div>  
+        <div class="x-scroll-content cEVRfam" xid="div2" __cid="cEVRfam"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list cEVRfam" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;data1&quot;}" __cid="cEVRfam"> 
+            <ul class="x-list-template hide cEVRfam" xid="listTemplateUl1" __cid="cEVRfam" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+              <li xid="li1" __cid="cEVRfam" class="cEVRfam"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row x-responsive-md cEVRfam" xid="row2" style="float:left;width:auto;padding-right:8px;padding-left:8px;margin-top:10px;margin-left:10px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'},event:{click:$model._callModelFn.bind($model, 'row2Click')}" __cid="cEVRfam"> 
+                  <div class="x-col cEVRfam" xid="col4" style="text-align:center;cursor:auto;width:90px;" __cid="cEVRfam"> 
+                    <img src="@justepContextPath@/v_5113_nol_zh_CNs_desktopd_pc/emp_app/images/camera.png" alt="" xid="image6" style="text-align:center;height:52px;width:50px;" __cid="cEVRfam" class="cEVRfam"/>  
+                    <div xid="div5" __cid="cEVRfam" class="cEVRfam"> 
+                      <span xid="span6" style="text-align:center;left:50%;" __cid="cEVRfam" class="cEVRfam" data-bind="text:ref('videoname')"/> 
+                    </div> 
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cEVRfam" class="cEVRfam">.x-panel.pb99d925e68244dba9bb2f4fb6aa6603c-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pb99d925e68244dba9bb2f4fb6aa6603c-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pb99d925e68244dba9bb2f4fb6aa6603c-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pb99d925e68244dba9bb2f4fb6aa6603c-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pb99d925e68244dba9bb2f4fb6aa6603c-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pb99d925e68244dba9bb2f4fb6aa6603c-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pb99d925e68244dba9bb2f4fb6aa6603c-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pb99d925e68244dba9bb2f4fb6aa6603c-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pb99d925e68244dba9bb2f4fb6aa6603c-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

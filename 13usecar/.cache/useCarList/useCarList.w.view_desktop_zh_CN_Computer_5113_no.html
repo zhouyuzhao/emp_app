@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cNZRRru" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cNZRRru" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onParamsReceive:modelParamsReceive" __cid="cNZRRru" class="cNZRRru"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p8333327aa5334899b529daa94946d8f0-iosstatusbar cNZRRru" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cNZRRru"> 
+    <div class="x-panel-top cNZRRru" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cNZRRru"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cNZRRru" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;我的用车列表&quot;}" __cid="cNZRRru"> 
+        <div class="x-titlebar-left cNZRRru" xid="left1" __cid="cNZRRru"/>  
+        <div class="x-titlebar-title cNZRRru" xid="title1" __cid="cNZRRru">我的用车列表</div>  
+        <div class="x-titlebar-right  cNZRRru" xid="right1" __cid="cNZRRru"> 
+          <div class="empty cNZRRru" __cid="cNZRRru"/>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cNZRRru" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;icon&quot;:&quot;icon-android-close&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cNZRRru"> 
+            <i xid="i1" class="icon-android-close cNZRRru" __cid="cNZRRru"/>  
+            <span xid="span1" __cid="cNZRRru" class="cNZRRru"/> 
+          </a> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cNZRRru" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cNZRRru"> 
+      <div xid="div1" __cid="cNZRRru" class="cNZRRru"> 
+        <div component="$model/UI2/system/components/justep/list/list" class="x-list cNZRRru" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;data1&quot;}" __cid="cNZRRru"> 
+          <ul class="x-list-template hide cNZRRru" xid="listTemplateUl1" __cid="cNZRRru" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+            <li xid="li1" __cid="cNZRRru" class="cNZRRru"> 
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row cNZRRru" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'},event:{click:$model._callModelFn.bind($model, 'row1Click')}" __cid="cNZRRru"> 
+                <div class="x-col x-col-25 cNZRRru" xid="col1" __cid="cNZRRru"> 
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output cNZRRru" xid="output1" data-bind="component:{ref:ref(&quot;DEPARTMENTNAME&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cNZRRru"/> 
+                </div>  
+                <div class="x-col x-col-50 cNZRRru" xid="col2" __cid="cNZRRru"> 
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output cNZRRru" xid="output2" data-bind="component:{ref:ref(&quot;RECORDDATE&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cNZRRru"/> 
+                </div>  
+                <div class="x-col cNZRRru" xid="col3" __cid="cNZRRru"> 
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output cNZRRru" xid="output3" data-bind="component:{ref:ref(&quot;STATUS&quot;),name:'$model/UI2/system/components/justep/output/output'},html:val(&quot;STATUS&quot;) =='01'?'初始创建': val(&quot;STATUS&quot;)=='02'?'提交': val(&quot;STATUS&quot;) =='03'?'审批中': val(&quot;STATUS&quot;) =='04'?'结束':''" __cid="cNZRRru"/> 
+                </div> 
+              </div>  
+              <hr xid="hr1" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="cNZRRru" class="cNZRRru"/> 
+            </li> 
+          </ul> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-bottom cNZRRru" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cNZRRru"/>  
+    <style __cid="cNZRRru" class="cNZRRru">.x-panel.p8333327aa5334899b529daa94946d8f0-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p8333327aa5334899b529daa94946d8f0-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p8333327aa5334899b529daa94946d8f0-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p8333327aa5334899b529daa94946d8f0-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p8333327aa5334899b529daa94946d8f0-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p8333327aa5334899b529daa94946d8f0-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p8333327aa5334899b529daa94946d8f0-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p8333327aa5334899b529daa94946d8f0-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p8333327aa5334899b529daa94946d8f0-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

@@ -1,0 +1,41 @@
+define(function(require){
+require('$model/UI2/system/components/justep/model/model');
+require('$model/UI2/system/components/justep/loadingBar/loadingBar');
+require('$model/UI2/system/components/justep/button/button');
+require('$model/UI2/system/components/justep/input/input');
+require('$model/UI2/system/components/justep/list/list');
+require('$model/UI2/system/components/justep/panel/child');
+require('$model/UI2/system/components/justep/labelEdit/labelEdit');
+require('$model/UI2/system/components/justep/textarea/textarea');
+require('$model/UI2/system/components/justep/panel/panel');
+require('$model/UI2/system/components/justep/popOver/popOver');
+require('$model/UI2/system/components/justep/windowReceiver/windowReceiver');
+require('$model/UI2/system/components/justep/row/row');
+require('$model/UI2/system/components/justep/select/select');
+require('$model/UI2/system/components/justep/output/output');
+require('$model/UI2/system/components/justep/titleBar/titleBar');
+require('$model/UI2/system/components/justep/data/data');
+require('$model/UI2/system/components/justep/window/window');
+require('$model/UI2/system/components/bootstrap/panel/panel');
+var __parent1=require('$model/UI2/system/lib/base/modelBase'); 
+var __parent0=require('$model/UI2/emp_app/05equipdefect/DefectView_RunDistribution'); 
+var __result = __parent1._extend(__parent0).extend({
+	constructor:function(contextUrl){
+	this.__sysParam='true';
+	this.__contextUrl=contextUrl;
+	this.__id='';
+	this.__cid='cJRJjEv';
+	this._flag_='277f9418b61ada2a5d5a32febf283993';
+	this.callParent(contextUrl);
+ var __Data__ = require("$UI/system/components/justep/data/data");new __Data__(this,{"autoLoad":false,"autoNew":false,"confirmDelete":true,"confirmRefresh":true,"defCols":{"codeid":{"define":"codeid","label":"专业id","name":"codeid","relation":"codeid","type":"String"},"codename":{"define":"codename","label":"专业名称","name":"codename","relation":"codename","type":"String"}},"directDelete":false,"events":{},"idColumn":"codeid","limit":20,"xid":"data1"});
+ new __Data__(this,{"autoLoad":false,"autoNew":false,"confirmDelete":true,"confirmRefresh":true,"defCols":{"codeid":{"define":"codeid","label":"检修班组ID","name":"codeid","relation":"codeid","type":"String"},"codename":{"define":"codename","label":"检修班组名称","name":"codename","relation":"codename","type":"String"}},"directDelete":false,"events":{},"idColumn":"codeid","limit":20,"xid":"data2"});
+ new __Data__(this,{"autoLoad":false,"autoNew":false,"confirmDelete":true,"confirmRefresh":true,"defCols":{"codeid":{"define":"codeid","label":"检修负责人ID","name":"codeid","relation":"codeid","type":"String"},"codename":{"define":"codename","label":"检修负责人","name":"codename","relation":"codename","type":"String"}},"directDelete":false,"events":{},"idColumn":"codeid","limit":20,"xid":"data3"});
+ new __Data__(this,{"autoLoad":true,"confirmDelete":true,"confirmRefresh":true,"defCols":{"filesuffixname":{"define":"filesuffixname","name":"filesuffixname","relation":"filesuffixname","type":"String"},"id":{"define":"id","name":"id","relation":"id","type":"String"},"originalname":{"define":"originalname","name":"originalname","relation":"originalname","type":"String"}},"directDelete":false,"events":{},"idColumn":"id","limit":20,"xid":"data4"});
+ new __Data__(this,{"autoLoad":true,"confirmDelete":true,"confirmRefresh":true,"defCols":{"ID":{"define":"ID","label":"ID","name":"ID","relation":"ID","type":"String"},"back":{"define":"back","label":"退回原因","name":"back","relation":"back","type":"String"},"grade":{"define":"grade","label":"缺陷等级","name":"grade","relation":"grade","type":"String"},"major":{"define":"major","label":"检修专业","name":"major","relation":"major","type":"String"},"name":{"define":"name","label":"检修负责人","name":"name","relation":"name","type":"String"},"team":{"define":"team","label":"检修班组","name":"team","relation":"team","type":"String"}},"directDelete":false,"events":{},"idColumn":"ID","initData":"[{\"ID\":\"1\"}]","limit":20,"xid":"data5"});
+ new __Data__(this,{"autoLoad":true,"confirmDelete":true,"confirmRefresh":true,"defCols":{"codeid":{"define":"codeid","label":"等级id","name":"codeid","relation":"codeid","type":"String"},"codename":{"define":"codename","label":"等级名称","name":"codename","relation":"codename","type":"String"}},"directDelete":false,"events":{},"idColumn":"codeid","limit":20,"xid":"data6"});
+ var justep = require('$UI/system/lib/justep');if(!this['__justep__']) this['__justep__'] = {};if(!this['__justep__'].selectOptionsAfterRender)	this['__justep__'].selectOptionsAfterRender = function($element) {		var comp = justep.Component.getComponent($element);		if(comp) comp._addDefaultOption();	};if(!this['__justep__'].selectOptionsBeforeRender)	this['__justep__'].selectOptionsBeforeRender = function($element) {		var comp = justep.Component.getComponent($element);		if(comp) comp._optionsBeforeRender();	};
+ var justep = require('$UI/system/lib/justep');if(!this['__justep__']) this['__justep__'] = {};if(!this['__justep__'].selectOptionsAfterRender)	this['__justep__'].selectOptionsAfterRender = function($element) {		var comp = justep.Component.getComponent($element);		if(comp) comp._addDefaultOption();	};if(!this['__justep__'].selectOptionsBeforeRender)	this['__justep__'].selectOptionsBeforeRender = function($element) {		var comp = justep.Component.getComponent($element);		if(comp) comp._optionsBeforeRender();	};
+ var justep = require('$UI/system/lib/justep');if(!this['__justep__']) this['__justep__'] = {};if(!this['__justep__'].selectOptionsAfterRender)	this['__justep__'].selectOptionsAfterRender = function($element) {		var comp = justep.Component.getComponent($element);		if(comp) comp._addDefaultOption();	};if(!this['__justep__'].selectOptionsBeforeRender)	this['__justep__'].selectOptionsBeforeRender = function($element) {		var comp = justep.Component.getComponent($element);		if(comp) comp._optionsBeforeRender();	};
+ var justep = require('$UI/system/lib/justep');if(!this['__justep__']) this['__justep__'] = {};if(!this['__justep__'].selectOptionsAfterRender)	this['__justep__'].selectOptionsAfterRender = function($element) {		var comp = justep.Component.getComponent($element);		if(comp) comp._addDefaultOption();	};if(!this['__justep__'].selectOptionsBeforeRender)	this['__justep__'].selectOptionsBeforeRender = function($element) {		var comp = justep.Component.getComponent($element);		if(comp) comp._optionsBeforeRender();	};
+}}); 
+return __result;});

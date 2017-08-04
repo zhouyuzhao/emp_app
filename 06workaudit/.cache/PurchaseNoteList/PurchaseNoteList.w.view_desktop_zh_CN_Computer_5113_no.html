@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cURVF3i" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cURVF3i" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cURVF3i" class="cURVF3i"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p9a5b058c1abd4f8d81ff4085e979a72f-iosstatusbar cURVF3i" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cURVF3i"> 
+    <div class="x-panel-content  x-scroll-view cURVF3i" xid="content1" _xid="C70DE0DA6F000001F9F684D01CC01997" style="bottom: 0px; top: 0px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cURVF3i"> 
+      <div component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView2" class="x-scroll cURVF3i" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cURVF3i"> 
+        <div class="x-content-center x-pull-down container cURVF3i" xid="div28" __cid="cURVF3i"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cURVF3i" xid="i9" __cid="cURVF3i"/>  
+          <span class="x-pull-down-label cURVF3i" xid="span43" __cid="cURVF3i">下拉刷新...</span> 
+        </div>  
+        <div class="x-scroll-content cURVF3i" xid="div26" __cid="cURVF3i"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list x-cards cURVF3i" xid="list8" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;autoLoad&quot;:true,&quot;data&quot;:&quot;data1&quot;}" __cid="cURVF3i"> 
+            <ul class="x-list-template x-min-height list-group hide cURVF3i" xid="listTemplateUl8" componentname="$UI/system/components/justep/list/list#listTemplateUl" id="undefined_listTemplateUl1" __cid="cURVF3i" data-bind="foreach:{data:$model.foreach_list8($element),afterRender:$model.foreach_afterRender_list8.bind($model,$element)}"> 
+              <li xid="li8" class="x-min-height list-group-item cURVF3i" componentname="li(html)" id="undefined_li2" style="padding:0px 5px 0px 5px;" __cid="cURVF3i"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cURVF3i" xid="row9" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cURVF3i"> 
+                  <div class="x-col x-col-80 cURVF3i" xid="col23" style="margin-bottom:5px;" __cid="cURVF3i" data-bind="event:{click:$model._callModelFn.bind($model, 'massageClick')}"> 
+                    <div xid="div25" style="width:100%;float:left;margin-bottom:10px;" __cid="cURVF3i" class="cURVF3i"> 
+                      <span xid="span41" style="float:left;width:60px;margin-right:10px;color:#000000;font-weight:bold;" __cid="cURVF3i" class="cURVF3i" data-bind="text:ref('sponsorname')"/>  
+                      <span xid="span42" style="float:left;color:#000000;" __cid="cURVF3i" class="cURVF3i" data-bind="text:ref('tokennodename')"/>  
+                      <span xid="span40" style="float:right;color:#2fa4e7;" __cid="cURVF3i" class="cURVF3i" data-bind="text:ref('starttime')"/> 
+                    </div>  
+                    <div xid="div24" style="width:100%;float:left;" __cid="cURVF3i" class="cURVF3i"> 
+                      <span xid="span38" style="width:100%;word-wrap:break-word;color:#000000;" __cid="cURVF3i" class="cURVF3i" data-bind="text:ref('title')"/> 
+                    </div> 
+                  </div>  
+                  <div class="x-col x-col-fixed cURVF3i" xid="col24" style="width:auto;" __cid="cURVF3i"> 
+                    <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cURVF3i" xid="button10" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:passClick" data-config="{&quot;icon&quot;:&quot;img:$model/UI2/emp_app/images/pass.png&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cURVF3i"> 
+                      <i xid="i10" __cid="cURVF3i" class="cURVF3i"/>  
+                      <img src="@justepContextPath@/v_5113_nol_zh_CNs_desktopd_pc/emp_app/images/pass.png" xid="image6" style="width:50px;" __cid="cURVF3i" class="cURVF3i"/>  
+                      <span xid="span39" __cid="cURVF3i" class="cURVF3i"/> 
+                    </a> 
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div> 
+        </div>  
+        <div class="x-content-center x-pull-up cURVF3i" xid="div27" __cid="cURVF3i"> 
+          <span class="x-pull-up-label cURVF3i" xid="span44" __cid="cURVF3i">加载更多...</span> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cURVF3i" class="cURVF3i">.x-panel.p9a5b058c1abd4f8d81ff4085e979a72f-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.p9a5b058c1abd4f8d81ff4085e979a72f-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.p9a5b058c1abd4f8d81ff4085e979a72f-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p9a5b058c1abd4f8d81ff4085e979a72f-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p9a5b058c1abd4f8d81ff4085e979a72f-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.p9a5b058c1abd4f8d81ff4085e979a72f-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p9a5b058c1abd4f8d81ff4085e979a72f-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p9a5b058c1abd4f8d81ff4085e979a72f-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p9a5b058c1abd4f8d81ff4085e979a72f-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+  </div>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" __cid="cURVF3i" class="cURVF3i"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cURVF3i" __cid="cURVF3i"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cURVF3i" style="display:none;" __cid="cURVF3i">  
+      <div class="x-dialog-title cURVF3i" __cid="cURVF3i"> 
+        <button class="close cURVF3i" __cid="cURVF3i"> 
+          <span __cid="cURVF3i" class="cURVF3i">×</span> 
+        </button>  
+        <div class="x-dialog-title-text cURVF3i" __cid="cURVF3i"/> 
+      </div>  
+      <div class="x-dialog-body cURVF3i" __cid="cURVF3i"/> 
+    </div> 
+  </span> 
+</div>

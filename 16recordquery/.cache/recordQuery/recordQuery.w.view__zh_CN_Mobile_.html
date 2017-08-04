@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cyMZVrq" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyMZVrq" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/textarea/textarea,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/popOver/popOver,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/select/select,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,">  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad;onParamsReceive:modelParamsReceive" __cid="cyMZVrq" class="cyMZVrq"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p46dbec44a8cf42e0bda9ffcb36c6597e-iosstatusbar cyMZVrq" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cyMZVrq"> 
+    <div class="x-panel-top cyMZVrq" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyMZVrq"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cyMZVrq" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;值长记事查询&quot;}" __cid="cyMZVrq"> 
+        <div class="x-titlebar-left cyMZVrq" xid="left1" __cid="cyMZVrq"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-lg btn-only-icon cyMZVrq" xid="button3" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button3Click" data-config="{&quot;icon&quot;:&quot;linear linear-sun&quot;}" __cid="cyMZVrq"> 
+            <i xid="i2" class="linear linear-sun cyMZVrq" __cid="cyMZVrq"/>  
+            <span xid="span2" __cid="cyMZVrq" class="cyMZVrq"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cyMZVrq" xid="title1" __cid="cyMZVrq">值长记事查询</div>  
+        <div class="x-titlebar-right  cyMZVrq" xid="right1" __cid="cyMZVrq"> 
+          <div class="empty cyMZVrq" __cid="cyMZVrq"/>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cyMZVrq" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;icon&quot;:&quot;icon-android-close&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cyMZVrq"> 
+            <i xid="i3" class="icon-android-close cyMZVrq" __cid="cyMZVrq"/>  
+            <span xid="span3" __cid="cyMZVrq" class="cyMZVrq"/> 
+          </a> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cyMZVrq" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyMZVrq"> 
+      <div xid="div1" __cid="cyMZVrq" class="cyMZVrq"> 
+        <div component="$model/UI2/system/components/justep/list/list" class="x-list cyMZVrq" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;data1&quot;}" __cid="cyMZVrq"> 
+          <ul class="x-list-template hide cyMZVrq" xid="listTemplateUl1" __cid="cyMZVrq" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+            <li xid="li1" __cid="cyMZVrq" class="cyMZVrq" data-bind="event:{click:$model._callModelFn.bind($model, 'li1Click')}"> 
+              <div xid="div3" __cid="cyMZVrq" class="cyMZVrq"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cyMZVrq" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cyMZVrq"> 
+                  <div class="x-col x-col-25 cyMZVrq" xid="col10" __cid="cyMZVrq"> 
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cyMZVrq" xid="output2" data-bind="component:{ref:ref(&quot;WORKDATE&quot;),name:'$model/UI2/system/components/justep/output/output'}" data-config="{&quot;format&quot;:&quot;yyyy-MM-dd&quot;}" __cid="cyMZVrq"/> 
+                  </div>  
+                  <div class="x-col cyMZVrq" xid="col11" __cid="cyMZVrq"> 
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cyMZVrq" xid="output3" style="color:#0000FF;" data-bind="component:{ref:ref(&quot;OCCURTIME&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cyMZVrq"/> 
+                  </div>  
+                  <div class="x-col x-col-25 cyMZVrq" xid="col12" __cid="cyMZVrq"> 
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cyMZVrq" xid="output4" data-bind="component:{ref:ref(&quot;WORKCENTERNAME&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cyMZVrq"/> 
+                  </div>  
+                  <div class="x-col cyMZVrq" xid="col13" __cid="cyMZVrq"> 
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cyMZVrq" xid="output5" style="font-weight:bold;" data-bind="component:{ref:ref(&quot;RECORDER&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cyMZVrq"/> 
+                  </div>  
+                  <div class="x-col cyMZVrq" xid="col14" __cid="cyMZVrq"> 
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cyMZVrq" xid="output6" style="color:#FF0000;" data-bind="component:{ref:ref(&quot;CODENAME&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cyMZVrq"/> 
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cyMZVrq" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cyMZVrq"> 
+                  <div class="x-col cyMZVrq" xid="col15" __cid="cyMZVrq"> 
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cyMZVrq" xid="output7" style="font-size:16px;" data-bind="component:{ref:ref(&quot;RECORDCONTENT&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cyMZVrq"/> 
+                  </div> 
+                </div> 
+              </div>  
+              <hr xid="hr1" style="margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;" __cid="cyMZVrq" class="cyMZVrq"/> 
+            </li> 
+          </ul> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cyMZVrq" class="cyMZVrq">.x-panel.p46dbec44a8cf42e0bda9ffcb36c6597e-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p46dbec44a8cf42e0bda9ffcb36c6597e-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p46dbec44a8cf42e0bda9ffcb36c6597e-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p46dbec44a8cf42e0bda9ffcb36c6597e-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p46dbec44a8cf42e0bda9ffcb36c6597e-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p46dbec44a8cf42e0bda9ffcb36c6597e-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p46dbec44a8cf42e0bda9ffcb36c6597e-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p46dbec44a8cf42e0bda9ffcb36c6597e-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p46dbec44a8cf42e0bda9ffcb36c6597e-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div>  
+  <div xmlns="" component="$model/UI2/system/components/justep/popOver/popOver" class="x-popOver cyMZVrq" xid="popOver1" data-bind="component:{name:'$model/UI2/system/components/justep/popOver/popOver'}" data-config="{&quot;direction&quot;:&quot;auto&quot;,&quot;opacity&quot;:0.9,&quot;position&quot;:&quot;top&quot;}" __cid="cyMZVrq"> 
+    <div class="x-popOver-overlay cyMZVrq" xid="div4" __cid="cyMZVrq"/>  
+    <div class="x-popOver-content cyMZVrq" xid="div5" style="width:100%;" __cid="cyMZVrq"> 
+      <div xid="div2" __cid="cyMZVrq" class="cyMZVrq"> 
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cyMZVrq" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cyMZVrq"> 
+          <div class="x-col cyMZVrq" xid="col1" __cid="cyMZVrq"> 
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control cyMZVrq" xid="input1" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;dataType&quot;:&quot;Date&quot;}" __cid="cyMZVrq"/> 
+          </div>  
+          <div class="x-col cyMZVrq" xid="col7" __cid="cyMZVrq"> 
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control cyMZVrq" xid="input2" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;dataType&quot;:&quot;Date&quot;}" __cid="cyMZVrq"/> 
+          </div> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cyMZVrq" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cyMZVrq"> 
+          <div class="x-col cyMZVrq" xid="col8" __cid="cyMZVrq"> 
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cyMZVrq" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cyMZVrq"> 
+              <label class="x-label cyMZVrq" xid="label1" __cid="cyMZVrq">记事类型:</label>  
+              <select component="$model/UI2/system/components/justep/select/select" class="form-control x-edit cyMZVrq" xid="select1" data-bind="component:{name:'$model/UI2/system/components/justep/select/select'},options:data2.datas,optionsValue:'value',optionsCaption:'请选择...',optionsText:'lable',optionsAfterRender2:$model.__justep__.selectOptionsAfterRender.bind($model,$element),optionsBeforeRender:$model.__justep__.selectOptionsBeforeRender.bind($model,$element)" __cid="cyMZVrq"/> 
+            </div> 
+          </div> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cyMZVrq" xid="row6" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cyMZVrq"> 
+          <div class="x-col cyMZVrq" xid="col17" __cid="cyMZVrq"> 
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cyMZVrq" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cyMZVrq"> 
+              <label class="x-label cyMZVrq" xid="label2" __cid="cyMZVrq">机组:</label>  
+              <select component="$model/UI2/system/components/justep/select/select" class="form-control x-edit cyMZVrq" xid="select2" data-bind="component:{name:'$model/UI2/system/components/justep/select/select'},options:data3.datas,optionsValue:'value',optionsCaption:'请选择...',optionsText:'lable',optionsAfterRender2:$model.__justep__.selectOptionsAfterRender.bind($model,$element),optionsBeforeRender:$model.__justep__.selectOptionsBeforeRender.bind($model,$element)" __cid="cyMZVrq"/> 
+            </div> 
+          </div> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cyMZVrq" xid="row7" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cyMZVrq"> 
+          <div class="x-col cyMZVrq" xid="col20" __cid="cyMZVrq"> 
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cyMZVrq" xid="labelEdit3" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cyMZVrq"> 
+              <label class="x-label cyMZVrq" xid="label3" __cid="cyMZVrq">记事内容:</label>  
+              <textarea component="$model/UI2/system/components/justep/textarea/textarea" class="form-control x-edit cyMZVrq" xid="textarea1" data-bind="component:{name:'$model/UI2/system/components/justep/textarea/textarea'}" __cid="cyMZVrq"/> 
+            </div> 
+          </div> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cyMZVrq" xid="row8" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cyMZVrq"> 
+          <div class="x-col cyMZVrq" xid="col23" style="text-align:center;" __cid="cyMZVrq"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn x-purple cyMZVrq" xid="button2" style="width:80%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button2Click" data-config="{&quot;label&quot;:&quot;确定&quot;}" __cid="cyMZVrq"> 
+              <i xid="i1" __cid="cyMZVrq" class="cyMZVrq"/>  
+              <span xid="span1" __cid="cyMZVrq" class="cyMZVrq">确定</span> 
+            </a> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+</div>

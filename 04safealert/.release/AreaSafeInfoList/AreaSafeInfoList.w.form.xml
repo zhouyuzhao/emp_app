@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window  safe cmEnuYb" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cmEnuYb" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.safe.cmEnuYb .safe-list-row.cmEnuYb{border-bottom: 1px solid rgb(51, 51, 51)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onParamsReceive:modelParamsReceive" __cid="cmEnuYb" class="cmEnuYb"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pf813d1ecdbab44d1bd5ed5219259ee08-iosstatusbar cmEnuYb" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cmEnuYb"> 
+    <div class="x-panel-top cmEnuYb" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cmEnuYb"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cmEnuYb" xid="titleBar" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cmEnuYb"> 
+        <div xid="left1" __cid="cmEnuYb" class="cmEnuYb"></div>  
+        <div class="x-titlebar-title cmEnuYb" xid="title1" __cid="cmEnuYb">
+          <div component="$model/UI2/system/components/justep/output/output" class="x-output cmEnuYb" xid="output1" style="text-align:center;color:#FFFFFF;font-size:large;height:44px;width:279px;margin-top:-10px;margin-left:15%;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cmEnuYb"/>
+        </div>  
+        <div xid="right1" __cid="cmEnuYb" class="cmEnuYb">
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cmEnuYb" xid="backBtn" style="margin-left:10px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-android-close&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cmEnuYb"> 
+            <i class="icon-android-close cmEnuYb" xid="i3" __cid="cmEnuYb"/>  
+            <span xid="span3" __cid="cmEnuYb" class="cmEnuYb"/>
+          </a>
+        </div> 
+      </div>
+    </div>  
+    <div class="x-panel-content  x-scroll-view  cmEnuYb" xid="content1" _xid="C71912FEE7E0000173AF7B5014AD1466" style="bottom: 0px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cmEnuYb">
+      <div component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView4" class="x-scroll cmEnuYb" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cmEnuYb"> 
+        <div class="x-content-center x-pull-down container cmEnuYb" xid="div28" __cid="cmEnuYb"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cmEnuYb" xid="i9" __cid="cmEnuYb"/>  
+          <span class="x-pull-down-label cmEnuYb" xid="span43" __cid="cmEnuYb">下拉刷新...</span>
+        </div>  
+        <div class="x-scroll-content cmEnuYb" xid="div26" __cid="cmEnuYb"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list x-cards cmEnuYb" xid="list" style="background-color:#FFFFFF;" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;data1&quot;}" __cid="cmEnuYb"> 
+            <ul class="x-list-template x-min-height list-group hide cmEnuYb" xid="listTemplateUl8" componentname="$UI/system/components/justep/list/list#listTemplateUl" id="undefined_listTemplateUl1" bind-foreach="{data:$model.foreach_list($element),afterRender:$model.foreach_afterRender_list.bind($model,$element)}" __cid="cmEnuYb"> 
+              <li xid="li8" class="x-min-height  safe-list-row cmEnuYb" componentname="li(html)" id="undefined_li2" style="padding:0px 10px 0px 10px;background-color:#FFFFFF;" __cid="cmEnuYb"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cmEnuYb" xid="row9" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cmEnuYb"> 
+                  <div class="x-col cmEnuYb" style="margin-bottom:5px;" xid="col1" __cid="cmEnuYb"> 
+                    <div xid="div25" style="width:100%;float:left;margin-bottom:10px;" __cid="cmEnuYb" class="cmEnuYb"> 
+                      <span xid="span41" style="margin-right:10px;color:#000000;font-weight:bold;font-size:large;" bind-text="ref('DOCNAME')" __cid="cmEnuYb" class="cmEnuYb"/>  
+                      <span xid="span1" style="margin-left:100px;font-size:medium;" __cid="cmEnuYb" class="cmEnuYb">阅读次数：</span>  
+                      <span xid="span6" bind-text="ref('VIEWNUM')" style="font-size:medium;color:#FF0000;" __cid="cmEnuYb" class="cmEnuYb"/>  
+                      <span xid="span7" style="font-size:medium;" __cid="cmEnuYb" class="cmEnuYb">遍</span>
+                    </div>  
+                    <div xid="div24" style="width:100%;float:left;" __cid="cmEnuYb" class="cmEnuYb"> 
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cmEnuYb" xid="row8" style="float:left;width:25%;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cmEnuYb"> 
+                        <div class="x-col cmEnuYb" xid="col20" bind-click="col20Click" __cid="cmEnuYb"> 
+                          <i xid="picbtn" style="color:green;font-size:60px;" bind-css="$object.val(&quot;DOCTYPE&quot;)=='PDF'?'fa fa-file-pdf-o':$object.val(&quot;DOCTYPE&quot;)=='DOC' || $object.val(&quot;DOCTYPE&quot;)=='DOCX'?'fa fa-file-word-o':$object.val(&quot;DOCTYPE&quot;)=='JPG'?'fa fa-photo':$object.val(&quot;DOCTYPE&quot;)=='PPT'?'fa fa-file-powerpoint-o':$object.val(&quot;DOCTYPE&quot;)=='TXT'?'fa fa-file-text':$object.val(&quot;DOCTYPE&quot;)=='PNG'?'fa fa-photo':$object.val(&quot;DOCTYPE&quot;)=='XLS'?'fa fa-file-excel-o':''" __cid="cmEnuYb" class="cmEnuYb"/>  
+                          <span xid="span2" bind-text="ref('ORIGINALNAME')" style="display:block;" __cid="cmEnuYb" class="cmEnuYb"/>
+                        </div> 
+                      </div>
+                    </div> 
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div> 
+        </div>  
+        <div class="x-content-center x-pull-up cmEnuYb" xid="div27" __cid="cmEnuYb"> 
+          <span class="x-pull-up-label cmEnuYb" xid="span44" __cid="cmEnuYb">加载更多...</span>
+        </div> 
+      </div>
+    </div>  
+    <style __cid="cmEnuYb" class="cmEnuYb">.x-panel.pf813d1ecdbab44d1bd5ed5219259ee08-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pf813d1ecdbab44d1bd5ed5219259ee08-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pf813d1ecdbab44d1bd5ed5219259ee08-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pf813d1ecdbab44d1bd5ed5219259ee08-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pf813d1ecdbab44d1bd5ed5219259ee08-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pf813d1ecdbab44d1bd5ed5219259ee08-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pf813d1ecdbab44d1bd5ed5219259ee08-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pf813d1ecdbab44d1bd5ed5219259ee08-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pf813d1ecdbab44d1bd5ed5219259ee08-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>
