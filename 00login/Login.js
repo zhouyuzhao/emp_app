@@ -121,5 +121,10 @@ define(function(require) {
 		this.value = this.comp('username').val();
 	};
 
+	
+	
+	
+	
+	
 	return Model;
 });
